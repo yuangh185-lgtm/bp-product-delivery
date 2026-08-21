@@ -1,0 +1,19 @@
+{
+  "packageName": "replace-with-package-name",
+  "version": "0.1.0",
+  "generatedDate": "YYYY-MM-DD",
+  "status": "draft",
+  "sources": [],
+  "artifacts": [],
+  "assumptions": [],
+  "warnings": [],
+  "blockedGates": [],
+  "openQuestions": [],
+  "omittedArtifacts": [],
+  "validation": {
+    "status": "not-run",
+    "errors": [],
+    "warnings": []
+  }
+}
+

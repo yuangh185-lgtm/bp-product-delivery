@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: Manufacturing Product API
+  version: 0.1.0
+  description: Replace all template values with confirmed contract definitions.
+servers: []
+paths: {}
+components:
+  schemas:
+    ErrorResponse:
+      type: object
+      required:
+        - code
+        - message
+        - correlationId
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+        correlationId:
+          type: string
+        details:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+

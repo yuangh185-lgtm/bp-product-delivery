@@ -1,0 +1,13 @@
+interface:
+  display_name: BP Product Delivery Orchestrator
+  short_description: 面向MES、APS、PLM、ERP的端到端产品交付编排
+  default_prompt: 使用 $bp-product-delivery 将这份 MES、APS、PLM 或 ERP 材料整理为一致、可追踪、可实施、可验收的产品交付包。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
